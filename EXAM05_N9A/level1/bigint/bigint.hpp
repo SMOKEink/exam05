@@ -35,9 +35,9 @@ class bigint
 		bool operator!=(const bigint &other) const;
 };
 
-std::ostream &operator<<(std::ostream &os, const bigint &nb)
+std::ostream &operator<<(std::ostream &os, const bigint &other)
 {
-	os << nb.getN();
+	os << other.getN();
 	return (os);
 }
 

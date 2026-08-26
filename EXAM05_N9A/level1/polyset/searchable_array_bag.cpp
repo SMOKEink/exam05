@@ -25,4 +25,3 @@ bool searchable_array_bag::has(int val) const
     }
     return false;
 }   
-//** */

@@ -20,16 +20,13 @@ class vect2
 		vect2 operator-(const vect2& other) const;
 		vect2 operator-() const;
 		vect2 operator*(int scale) const;
-
-		friend vect2 operator*(int scale, const vect2& v);
-
+		friend vect2 operator*(int scale, const vect2& other);
 		vect2& operator+=(const vect2 &other);
 		vect2& operator-=(const vect2 &other);
 		vect2& operator*=(int scale);
 
 		vect2& operator++();
 		vect2 operator++(int);
-
 		vect2& operator--();
 		vect2 operator--(int);
 

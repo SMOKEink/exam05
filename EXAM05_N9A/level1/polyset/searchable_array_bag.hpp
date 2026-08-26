@@ -10,5 +10,3 @@ class searchable_array_bag : public searchable_bag , public array_bag
         ~searchable_array_bag();
         bool has(int val) const;
 };
-
-//** */
